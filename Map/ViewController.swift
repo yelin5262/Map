@@ -92,9 +92,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             self.lblLocationInfo2.text = "이지스퍼블리싱 출판사"
         }
         else if sender.selectedSegmentIndex == 3 {
-            setAnnotation(latitudeValue: 37.495077358307, longtitudeValue: 127.05367906432, delta: 0.1, title: "우리집", subtitle: "서울특별시 강남구 선릉로 222")
-            self.lblLocationInfo1.text = "우리집"
-            self.lblLocationInfo2.text = "대치아이파크아파트"
+            setAnnotation(latitudeValue: 37.552519726543196, longtitudeValue: 126.9095893500982, delta: 0.01, title: "우리학교", subtitle: "서울특별시 마포구 와우산로 94")
+            self.lblLocationInfo1.text = "우리학교"
+            self.lblLocationInfo2.text = "홍익대학교"
         }
     }
 }
